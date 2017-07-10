@@ -51,5 +51,6 @@ public class HomePresenter implements HomeContract.Presenter {
         if (activity!=null){
             context.startActivity(new Intent(context, activity));
         }
+
     }
 }

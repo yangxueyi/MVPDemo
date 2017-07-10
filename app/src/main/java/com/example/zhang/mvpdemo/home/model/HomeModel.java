@@ -8,4 +8,5 @@ import com.example.zhang.mvpdemo.home.contract.HomeContract;
  */
 
 public class HomeModel implements HomeContract.Model {
+
 }

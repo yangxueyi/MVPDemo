@@ -61,7 +61,6 @@ public class HomeActivity extends ActionBarActivity implements HomeView,AdapterV
         viewGroup.addView(loadingView, layoutParams);
         listView.setEmptyView(loadingView);
 
-
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(adapter);
     }

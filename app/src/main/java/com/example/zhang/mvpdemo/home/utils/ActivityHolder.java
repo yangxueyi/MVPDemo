@@ -36,4 +36,5 @@ public class ActivityHolder {
     public Class<? extends Activity> getActivity(String name){
         return activityMap.get(name);
     }
+
 }
