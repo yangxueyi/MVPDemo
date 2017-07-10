@@ -48,6 +48,7 @@ public class HomeActivity extends ActionBarActivity implements HomeView,AdapterV
     protected void onResume() {
         super.onResume();
         homePresenter.loadDatas();
+
     }
 
     private void initView() {
