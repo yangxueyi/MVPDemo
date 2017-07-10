@@ -8,9 +8,9 @@ package com.example.zhang.mvpdemo.login.view;
 
 public interface LoginView{
     /**清空输入的内容*/
-     void onClearText();
-     /**保存*/
-     void onSaveResult(Boolean result, String code);
+    void onClearText();
+    /**注册保存*/
+    void onSaveResult(Boolean result, String code);
     /**登录的结果*/
-     void onLoginResult(Boolean result, String code);
+    void onLoginResult(Boolean result, String code);
 }

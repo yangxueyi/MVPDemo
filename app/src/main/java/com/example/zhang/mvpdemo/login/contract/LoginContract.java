@@ -6,11 +6,10 @@ package com.example.zhang.mvpdemo.login.contract;
  */
 
 public interface LoginContract {
+
     interface Model {
         String getName();
         String getPassword();
-    }
-    interface View {
     }
     interface Presenter {
         void clear();

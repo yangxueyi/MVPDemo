@@ -78,8 +78,6 @@ public class LoginPresenter implements LoginContract.Presenter {
 
         boolean isLoginSuccess = true;
         String str = "";
-
-
         //取出保存的账户密码
         SharedPreferences preferences=context.getSharedPreferences("user", Context.MODE_PRIVATE);
         String name1=preferences.getString("name", "defaultname");
