@@ -18,6 +18,8 @@
         </activity>
 
         <activity android:name=".login.LoginActivity"/>
+        <activity android:name=".adapter.AdapterActivity"/>
+        <activity android:name=".eventbus.EventbusActivity"/>
     </application>
 
 </manifest>

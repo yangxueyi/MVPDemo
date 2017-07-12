@@ -16,7 +16,6 @@ public interface HomeContract {
         /**添加数据*/
         void loadDatas();
         /**条目的点击事件*/
-
         void onClickItem(int position);
 
     }
