@@ -1,6 +1,6 @@
 package com.example.zhang.mvpdemo.eventbus.view;
 
-import java.util.List;
+import android.app.Activity;
 
 /**
  * Created by Zhang
@@ -8,5 +8,5 @@ import java.util.List;
  */
 
 public interface EventbusView {
-
+    Activity getActivity();
 }

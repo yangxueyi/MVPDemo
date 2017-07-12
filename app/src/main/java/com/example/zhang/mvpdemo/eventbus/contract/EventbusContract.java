@@ -15,5 +15,7 @@ public interface EventbusContract {
     }
 
     interface Presenter {
+        void loadDatas();
+        void onItemClick(int position);
     }
 }
