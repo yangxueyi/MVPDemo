@@ -8,6 +8,7 @@ import android.os.Looper;
 
 import com.example.zhang.mvpdemo.adapter.AdapterActivity;
 import com.example.zhang.mvpdemo.eventbus.EventbusActivity;
+import com.example.zhang.mvpdemo.fragment.FragmentActivity;
 import com.example.zhang.mvpdemo.home.contract.HomeContract;
 import com.example.zhang.mvpdemo.home.utils.ActivityHolder;
 import com.example.zhang.mvpdemo.home.view.HomeView;
@@ -26,6 +27,7 @@ public class HomePresenter implements HomeContract.Presenter {
         activityHolder.addActivity("login demo", LoginActivity.class);
         activityHolder.addActivity("adapter demo", AdapterActivity.class);
         activityHolder.addActivity("eventbus demo", EventbusActivity.class);
+        activityHolder.addActivity("fragment demo", FragmentActivity.class);
     }
 
     Context context;

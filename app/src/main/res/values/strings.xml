@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MVPDemo</string>
+    <string name="app_name">MVP Demo</string>
 
     <string-array name="countries">
         <item>Russia</item>
