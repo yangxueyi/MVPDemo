@@ -1,11 +1,12 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'//这个表示一个应用程序
+apply plugin: 'com.android.library'//这才是一个library
 apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.example.zhang.mvpdemo"
+//        applicationId "com.example.zhang.mvpdemo"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -21,7 +22,7 @@ android {
 }
 
 dependencies {
-    
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
